@@ -1,32 +1,15 @@
-# Price Drop Alert in Python
+# Simple Price Tracking Tool for Nordstrom Rack
 
-A simple Python script that checks a price and sends audio notification if it passes the check.
+A simple Python script that checks the price of an item every 10 seconds. Alerts the user if the price value is below a certain amount. 
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Use the package manager [pip] and install all the libraries in getPrice.py file.
  
- ```
-import urllib.request
-import itertools
-import pygame
-import time
-from bs4 import BeautifulSoup as BS
-```
-
-```bash
-pip install foobar
-```
 
 ## Usage
 
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+This script is really easy to use. All you have to do is just change the links and tags and you should be able to start price tracking. 
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
