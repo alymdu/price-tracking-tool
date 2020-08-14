@@ -1,2 +1,37 @@
-# price-tracking-tool
-Online Price Tracking Tool for Nordstrom Rack
+# Price Drop Alert in Python
+
+A simple Python script that checks a price and sends audio notification if it passes the check.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+ 
+ ```
+import urllib.request
+import itertools
+import pygame
+import time
+from bs4 import BeautifulSoup as BS
+```
+
+```bash
+pip install foobar
+```
+
+## Usage
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
