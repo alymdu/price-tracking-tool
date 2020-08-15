@@ -1,1 +1,0 @@
-I wrote this script to check whether a certain Funko toy was up for sale. Unfortunately, I couldn't buy the collectible item because other people used actual bots to purchase it and by the time I opened the link it was all sold out. 
